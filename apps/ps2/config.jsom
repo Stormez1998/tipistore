@@ -1,0 +1,7 @@
+{
+  "id": "pcsx2",
+  "name": "PCSX2",
+  "description": "PlayStation 2 Emulator (PCSX2) – Spiele deine PS2-Spiele direkt im Browser!",
+  "icon": "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/pcsx2-icon.png",
+  "categories": ["Emulator", "Gaming"]
+}
