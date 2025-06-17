@@ -1,0 +1,26 @@
+{
+  "version": "3.7",
+  "services": {
+    "pcsx2": {
+      "image": "ghcr.io/linuxserver/pcsx2",
+      "container_name": "pcsx2",
+      "restart": "unless-stopped",
+      "environment": [
+        "PUID=1000",
+        "PGID=1000",
+        "TZ=Europe/Berlin"
+      ],
+      "ports": [
+        "5800:5800"
+      ],
+      "volumes": [
+        "pcsx2-config:/config",
+        "pcsx2-data:/data"
+      ]
+    }
+  },
+  "volumes": {
+    "pcsx2-config": {},
+    "pcsx2-data": {}
+  }
+}
